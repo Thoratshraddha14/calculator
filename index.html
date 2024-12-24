@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+          @font-face {
+      font-family: 'Digital';
+      src: url('./digital-7/digital-7.ttf');
+    }
+    .digital {
+      font-family: 'Digital', sans-serif;
+      font-size: 4rem;
+    }
+        .container{
+            background-color: #666666;
+            height: 430px;
+            width: 350px;
+            margin: 20px auto;
+            border: 2px solid #7e7a7a;
+            border-radius: 10px;
+        }
+        .top-container{
+            background-color: #262626;
+            height: 100px ;
+            border: 1px solid #070707;
+            border-radius: 5px;
+        }
+        .bottom-container{
+            background-color: #666666;
+            height: 330px;
+            display: flex;
+            border: 2px solid #7e7a7a;
+            border-radius: 0 0 10px 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .screen{
+            background-color: #ccffeb;
+            margin: 30px 15px;
+            height: 50px;
+            width: 300px;
+            font-size: 50px;
+            text-align: right;
+        }
+        .btn{
+            background-color: #262626;
+            color: white;
+            box-shadow: 1px 2px #151212 ;
+            height: 34px;
+            width: 45px;
+            margin: 10px;
+            font-size: 20px;
+            border: 1px solid #535151;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn-1{
+            height: 90px;
+        }
+        .btn-2{
+            background-color: #7e7a7a;
+        }
+        .btn:hover{
+            background-color: #666666;
+            color: white;
+        }
+    </style>
+    <title>Calculator Design</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-container">
+            <input type="text" value="0" class="screen digital">
+        </div>
+        <div class="bottom-container">
+            <button class="btn">%</button>
+            <button class="btn">MC</button>
+            <button class="btn">+/-</button>
+            <button class="btn">C</button>
+            <button class="btn btn-2">AC</button>
+            <button class="btn">0</button>
+
+            <button class="btn">^</button>
+            <button class="btn">MR</button>
+            <button class="btn">7</button>
+            <button class="btn">4</button>
+            <button class="btn">1</button>
+            <button class="btn">00</button>
+
+            <button class="btn">(</button>
+            <button class="btn">M-</button>
+            <button class="btn">8</button>
+            <button class="btn">5</button>
+            <button class="btn">2</button>
+            <button class="btn">.</button>
+
+            <button class="btn">)</button>
+            <button class="btn">M+</button>
+            <button class="btn">9</button>
+            <button class="btn">6</button>
+            <button class="btn">3</button>
+            <button class="btn">=</button>
+
+            <button class="btn">GT</button>
+            <button class="btn">/</button>
+            <button class="btn">*</button>
+            <button class="btn">-</button>
+            <button class="btn btn-1" >+</button>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
